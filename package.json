@@ -40,6 +40,7 @@
     "@tailwindcss/postcss7-compat": "^2.0.4",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",
+    "tailwind-dracula": "^1.0.5",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
   }
 }

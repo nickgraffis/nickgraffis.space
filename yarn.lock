@@ -10842,7 +10842,12 @@
     "slice-ansi" "^4.0.0"
     "string-width" "^4.2.0"
 
-"tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.4":
+"tailwind-dracula@^1.0.5":
+  "integrity" "sha512-4SHEsi/JWZ27ALAL74t2hcfQgHSOBPNdYszoLgiMfPQYAsQdsvG1eAMEeFjC5bsMKkSh+cXZssrsj2Xo2DRFvw=="
+  "resolved" "https://registry.npmjs.org/tailwind-dracula/-/tailwind-dracula-1.0.5.tgz"
+  "version" "1.0.5"
+
+"tailwindcss@2.x", "tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.4":
   "integrity" "sha512-+M9a/jAKQC+q+sSwsRfYWe1tbxxXXQKuhfh1nhUzAv7A6EOV4puMzGQnTW6oL1Qn/JzCJ8ozM1WmIBPdL6kD4A=="
   "resolved" "https://registry.npmjs.org/@tailwindcss/postcss7-compat/-/postcss7-compat-2.0.4.tgz"
   "version" "2.0.4"
