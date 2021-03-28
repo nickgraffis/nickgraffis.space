@@ -10842,21 +10842,6 @@
     "slice-ansi" "^4.0.0"
     "string-width" "^4.2.0"
 
-"tailwind-dracula@^1.0.4":
-  "integrity" "sha512-9A7IUPIhR9wX04+cs9nTCvOQczCRQaMpYnpfFPfBxlmI2WzAU/eJI7NMBj6bwJhRv5qbv8xDXR/yK1nhWUOCuQ=="
-  "resolved" "https://registry.npmjs.org/tailwind-dracula/-/tailwind-dracula-1.0.4.tgz"
-  "version" "1.0.4"
-
-"tailwind-nord@^1.2.0":
-  "integrity" "sha512-8CsntjXDV0P+5jGhr5l5fbFPwEzxODebitSn2kQi8hW4jGYISh2WiIUkz+PRJgboaMgij9SUdI6uaWFHRNoNmw=="
-  "resolved" "https://registry.npmjs.org/tailwind-nord/-/tailwind-nord-1.2.0.tgz"
-  "version" "1.2.0"
-
-"tailwindcss-material@^1.0.0":
-  "integrity" "sha512-u+jfObp+SK17zIyEuhkzDGIV+ahr4344V/7UT0arjlWip9DnQOnIc0lOqso+dKrgB6RuEwuqsVzNEfOpYg59NQ=="
-  "resolved" "https://registry.npmjs.org/tailwindcss-material/-/tailwindcss-material-1.0.0.tgz"
-  "version" "1.0.0"
-
 "tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.4":
   "integrity" "sha512-+M9a/jAKQC+q+sSwsRfYWe1tbxxXXQKuhfh1nhUzAv7A6EOV4puMzGQnTW6oL1Qn/JzCJ8ozM1WmIBPdL6kD4A=="
   "resolved" "https://registry.npmjs.org/@tailwindcss/postcss7-compat/-/postcss7-compat-2.0.4.tgz"
