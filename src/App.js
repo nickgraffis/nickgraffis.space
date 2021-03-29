@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
+import Blog from './pages/Blog'
 import NotFound from './pages/NotFound'
 
 function App (props) {
@@ -17,6 +18,7 @@ function App (props) {
           <Navbar />
           <Switch>
             <Route exact path="/about" component={About}/>
+            <Route exact path="/blog" component={Blog}/>
             <Route exact path="/" component={Home}/>
             <Route path='/404' component={NotFound} />
             <Redirect to='/404' />
