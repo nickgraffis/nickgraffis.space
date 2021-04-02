@@ -58,3 +58,17 @@
   left: -15px;
   top: 15px;
 }
+
+@layer utilities {
+  @variants responsive {
+    .w-45rem {
+      width: 45rem;
+    }
+    .w-30rem {
+      width: 30rem;
+    }
+    .h-30rem {
+      height: 30rem;
+    }
+  }
+}

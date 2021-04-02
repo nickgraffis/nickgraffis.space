@@ -16,7 +16,6 @@ export default function Blog () {
   return (
     <>
       {loading ? <Loading /> : <BlogPosts posts={posts} /> }
-      <Subscribe />
     </>
   )
 }

@@ -40,7 +40,7 @@ export default function Post ({ post }) {
       </div>
       <div class="img w-2/6">
         <a href="/post/2">
-          <img src={'https://images.unsplash.com/photo-1546609665-aeb88ffa6f27?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzl8fG9jZWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60'} class="object-cover w-full h-full" />
+          <img src={post.thumbnail} class="object-cover w-full h-full" />
         </a>
       </div>
     </div>

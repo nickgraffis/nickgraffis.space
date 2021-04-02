@@ -14,7 +14,7 @@ const plainDate = (date) => {
 export default function TimelineEvent ({ data, index }) {
   console.log(index)
   return <li className="relative">
-    <div className={`absolute w-0.5 bg-cullen rounded-sm h-5 mt-1 left-4 -ml-px ${index === 0 ? 'hidden' : ''}`}></div>
+    <div className={`absolute z w-0.5 bg-cullen rounded-sm h-5 mt-1 left-4 -ml-px ${index === 0 ? 'hidden' : ''}`}></div>
     <div className={`flex w-full items-center ${index !== 0 ? 'pt-7' : ''}`}>
       <div className={`bg-${data.color} rounded-full h-8 w-8 flex items-center justify-center`}>
       {Parser(data.icon)}
