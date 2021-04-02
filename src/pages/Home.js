@@ -6,13 +6,16 @@ import Work from '../components/Work'
 import Header from '../components/Header'
 import Loading from '../components/Loader'
 import axios from 'axios';
+import { useAuth } from '../App'
 
 export default function Home () {
   const [events, setEvents] = useState([])
   const [loading, setLoading] = useState(true)
+  const auth = useAuth()
+
   useEffect(() => {
     async function fetchData() {
-      let events = await axios.get('http://localhost:8888/.netlify/functions/hello-world/hello-world.js')
+      let events = await axios.get('http://localhost:8888/.netlify/functions/time-line/time-line.js')
       setEvents(events.data);
       setLoading(false)
     }
@@ -98,6 +101,7 @@ let projects = [
 
   return (
     <>
+      {auth ? <p>Hi</p> : '' }
       <Header title="Hi, I'm Nick Graffis" content={content}/>
       {loading ? <Loading /> : <Timline events={events} display_name="Timeline"/> }
       <Skills skills={skills} />
