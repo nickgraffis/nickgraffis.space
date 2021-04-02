@@ -25,5 +25,3 @@ export default function ModalForm({ fields, title, buttons, position }) {
     </div>
   </>
 }
-
-//Test
