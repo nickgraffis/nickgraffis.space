@@ -29,12 +29,13 @@ function App (props) {
 
   return <>
     <div className="min-h-screen h-full w-screen dark:bg-nosferatu">
-      <div className="flex text-buffy flex-col mx-auto items-center max-w-2xl min-h-screen px-8 md:px-0 lg:px-0">
+      <div className="flex flex-col mx-auto items-center max-w-2xl min-h-screen px-8 md:px-0 lg:px-0">
         <Router>
            <Navbar />
            <Switch>
              <Route exact path="/about" component={About}/>
              <Route exact path="/blog" component={Blog}/>
+             <Route path="/post/:title" component={Post}/>
              <Route exact path="/" component={Home}/>
              <Route path='/404' component={NotFound} />
              <Redirect to='/404' />

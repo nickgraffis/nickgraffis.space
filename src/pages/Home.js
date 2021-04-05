@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import Loading from '../components/Loader'
 import axios from 'axios';
 import { useAuth } from '../App'
+import EmojiPicker from '../components/ui/EmojiPicker'
 
 export default function Home () {
   const [events, setEvents] = useState([])
@@ -101,6 +102,7 @@ let projects = [
 
   return (
     <>
+      <EmojiPicker />
       {auth ? <p>Hi</p> : '' }
       <Header title="Hi, I'm Nick Graffis" content={content}/>
       {loading ? <Loading /> : <Timline events={events} display_name="Timeline"/> }

@@ -1,5 +1,6 @@
 import Parser from 'html-react-parser'
 import Reactions from './Reactions'
+import { Link } from 'react-router-dom'
 
 export default function Post ({ post }) {
   const formatter = new Intl.DateTimeFormat('en-us', {
@@ -22,7 +23,7 @@ export default function Post ({ post }) {
     return Math.ceil(min) + ' min read'
   }
 
-  return <>
+  return <Link to={`post/${encodeURIComponent(post.title)}`}>
     <div class="text-cullen w-full flex py-4">
       <div class="w-4/6  pr-4">
           <a href="/post/2">
@@ -44,5 +45,5 @@ export default function Post ({ post }) {
         </a>
       </div>
     </div>
-  </>
+  </Link>
 }

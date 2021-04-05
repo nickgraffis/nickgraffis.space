@@ -59,7 +59,35 @@
   top: 15px;
 }
 
+img.twemoji {
+   height: 1em;
+   width: 1em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.1em;
+}
+
 @layer utilities {
+  .post {
+    @apply flex flex-col flex-wrap mx-auto max-w-2xl min-h-screen px-8 md:px-0 lg:px-0
+  }
+  .post h1 {
+    @apply text-8xl font-black text-cullen py-4
+  }
+  .post h4 {
+    @apply text-xl lg:text-3xl font-medium text-vonCount py-4
+  }
+  .post img {
+    @apply rounded-lg max-w-full
+  }
+  .post figcaption {
+    @apply text-base text-vonCount pb-4 pt-2
+  }
+  .post p {
+    @apply text-cullen text-lg font-medium py-2
+  }
+  .post pre {
+    @apply p-4 my-2 bg-aro rounded-lg text-blade overflow-scroll max-w-full
+  }
   @variants responsive {
     .w-45rem {
       width: 45rem;
