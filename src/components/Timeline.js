@@ -14,7 +14,7 @@ function Timeline ({ events }) {
             </svg>`,
     color: 'aro'
   }
-  
+
   return <>
     <h1 className="text-lg text-black dark:text-cullen font-medium mb-4 mt-6">Timeline</h1>
     <ul className="w-full">
@@ -36,6 +36,7 @@ function Timeline ({ events }) {
       }
     ]}
     title="Create Timeline Event"
+    classes="lg:dark:bg-aro dark:bg-aro"
     buttons={[
       {
         func: () => {alert('hi')},

@@ -4,13 +4,16 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
+    "@heroicons/react": "^1.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "airtable": "^0.10.1",
     "axios": "^0.21.1",
+    "camelcase": "^6.2.0",
     "html-react-parser": "^1.2.4",
     "navi": "^0.14.0",
+    "querystring": "^0.2.1",
     "react": "^16.8",
     "react-dom": "^17.0.2",
     "react-navi": "^0.14.4",
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
     "@tailwindcss/postcss7-compat": "^2.0.4",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",

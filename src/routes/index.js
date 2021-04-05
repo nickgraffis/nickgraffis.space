@@ -16,6 +16,16 @@ export const routes = mount({
     </>,
     view: <Home />,
   }),
+  '/blog': route({
+    title: 'Nick Graffis | Software Engineer',
+    head: <>
+      <meta name="description" content="A software engineer from Long Beach, Calif." />
+      <script>
+        {/* ADD SCRIPTS HERE FOR ANALYTICS */}
+      </script>
+    </>,
+    view: <Blog />,
+  }),
   '/login': route({
     title: 'Welcome back, Nick!',
     head: <>

@@ -84,7 +84,7 @@ export default function Home () {
 let projects = [
   {
     title: 'Babelbox',
-    framework: 'svelte',
+    stack: ['react', 'mongo', 'express', 'tailwind', 'heroku'],
     description: 'This is a cool app!'
   }
 ]

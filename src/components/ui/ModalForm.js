@@ -1,7 +1,7 @@
-export default function ModalForm({ fields, title, buttons, position }) {
+export default function ModalForm({ fields, title, buttons, position, classes }) {
   return <>
     <div className={`h-screen w-full ${position || 'fixed'} z-40 flex items-center justify-center`}>
-      <div className={`dark:bg-aro lg:dark:bg-nosferatu z-40 rounded-lg p-6 lg:w-4/12 w-8/12 dark:text-cullen flex flex-col`}>
+      <div className={`dark:bg-aro lg:dark:bg-nosferatu z-40 rounded-lg p-6 lg:w-4/12 w-8/12 dark:text-cullen flex flex-col ${classes}`}>
         <p className="text-center text-3xl font-semibold mb-4">{title}</p>
         {fields.map((field, index) => {
           return <div className="my-4">
